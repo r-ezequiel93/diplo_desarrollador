@@ -4,3 +4,7 @@ manzanas
 peras
 zandias
 papas
+limon
+café
+leches
+pollo
