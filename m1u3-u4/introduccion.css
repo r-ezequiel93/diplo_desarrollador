@@ -1,48 +1,93 @@
-h1{
-    color: blue; /* comentario en css */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* para cambiar tipografia */
-    background-color: black; /* fondo */
+/*
+font-family: "Lora", serif;
+font-family: "Indie Flower", serif;
+*/
+
+
+
+h1 {
+    color: blue;
+    /* comentario en css */
+    font-family: "Indie Flower", serif;
+    /* para cambiar tipografia */
+    background-color: black;
+    /* fondo */
     text-align: center;
 
 }
 
-h2{
+h2 {
     color: blue;
     background-color: black;
-    font-size: 25px ;
+    font-size: 25px;
+    font-family: "Indie Flower", serif;
 }
 
 
-h3{
+h3 {
     color: blue;
     background-color: black;
-} 
+    font-family: "Indie Flower", serif;
+}
 
-p{
+p {
     color: blue;
     font-size: 18px;
+    font-family: "Indie Flower", serif;
 }
 
-.destacados{
+.destacados {
 
     font-size: 25px;
-    font-weight:  bold;
+    font-weight: bold;
     font-style: italic;
+    font-family: "Indie Flower", serif;
 }
 
-#negro{
-     background-color: orange;
-     width: 350px;
-     height: 350px;
-     padding: 20px;
-     border: 5px solid black; 
-     box-sizing: border-box;
+#negro {
+
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    background: rgb(255, 156, 5);
+    background: linear-gradient(90deg, rgba(255, 156, 5, 1) 35%, rgba(23, 194, 208, 1) 56%, rgba(0, 212, 255, 1) 77%);
+    border-radius: 20px;
+    box-shadow: -10px -20px 5px black;
+    margin: 0;
+    font-family: "Indie Flower", serif;
 }
 
-#naranja{
-     background-color: rgb(255, 166, 0);
-     width: 350px;
-     height: 350px;
-     border: 5px solid black;
-     box-sizing: border-box;
-} 
+#naranja {
+
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    background: rgb(255, 156, 5);
+    background: linear-gradient(90deg, rgba(255, 156, 5, 1) 35%, rgba(23, 194, 208, 1) 56%, rgba(0, 212, 255, 1) 77%);
+    border-radius: 20px;
+    box-shadow: -10px -20px 5px black;
+    margin: 0;
+    /*eje x eje y blur color */
+    font-family: "Indie Flower", serif;
+
+}
+
+
+
+.texto {
+    background-color: orange;
+    column-count: 5;
+    column-gap: 60px;
+    margin: 0;
+    font-family: "Indie Flower", serif;
+
+
+}
+
+.texto p {
+
+    margin: 0;
+}
