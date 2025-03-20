@@ -1,15 +1,12 @@
-import react from "react";
-
 const Header = (props) => {
-
     return (
-        <Header>
-            <div>
-                <img src="img/logo192.png" width="100" alt="transportes X" />
-                <h1>transportes X</h1>
-            </div>
-        </Header>
-    )
-}
-
-export default Header;
+      <header>
+        <div className="holder">
+          <img src="img/logo192.png" width="100" alt="Transportes X" />
+          <h1>Transportes</h1>
+        </div>
+      </header>
+    );
+  }
+  
+  export default Header;

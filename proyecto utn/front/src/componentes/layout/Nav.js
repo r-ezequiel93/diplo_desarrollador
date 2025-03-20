@@ -4,18 +4,13 @@ const Nav = (props) => {
         <nav >
             <div>
                 <ul>
-                    <li><link to="/">home</link></li>
-                    <li><link to="/nosotros">nosotros</link></li>
-                    <li><link to="/novedades">novedades</link></li>
-                    <li><link to="/contacto">contacto</link></li>
-
-
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/nosotros">Nosotros</Link></li>
+                    <li><Link to="/novedades">Novedades</Link></li>
+                    <li><Link to="/contacto">Contacto</Link></li>
                 </ul>
             </div>
         </nav>
-
     )
-
-}
-
+   }
 export default Nav;
